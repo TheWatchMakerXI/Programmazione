@@ -13,7 +13,7 @@ if portrange.find("-") == 1:
     
 print(f"Verrano scansite le porta da {lowport} a {highport}")
 closePort = []
-for inverso 
+#for inverso 
 whit range(lowport, hiport+1) as port : #uguale a quello di sotto
     s = so.socket(so.AF_INET, so.SOCK_STREAM)
     status = s.connect_ex((target, port))
