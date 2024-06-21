@@ -25,3 +25,4 @@
 #x = int (input("inserisci il valore del lato per calcolare il perimetro del quadrato: "))
 
 #print("il perimetro di lato",  x  ," e :" ,(x * 4))
+
