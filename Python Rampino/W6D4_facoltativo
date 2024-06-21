@@ -1,0 +1,20 @@
+import math
+while(1):
+    scelta =input("Da che figura cominciamo?\nA)Quadrato\nB)Cerchio\nC)Rettangolo.\nA te la scelta: " )
+    dimensione = int input("Inserisci la lunghezza da associare alla figura scelta in precedenza per iniziare il calcolo")
+    area
+    if scelta == 'a'  or  scelta == 'A':
+    
+        print(f"Il perimetro del quadrato e':{(dimensione * 4)}")
+        area = (x * x)
+        print(f"Invece l'area e':{y}")
+    #elif scelta == 'b'  or  scelta == 'B':
+        #r = int (input("Inserisci il valore del raggio per calcolare la circoferenza del cerchio:"))
+        print(f"La circonferenza avente raggio {y} e':{int(2 * (math.pi) * y)}")
+    elif scelta == 'c'  or  scelta == 'C':
+        b = int (input("Inserisci il valore della base:"))
+        h = int (input("Inserisci il valore dell'altezza:"))
+        print(f"Il perimetro del del rettangolo avente {b} come base e {h} come altezza e':{((2 * b) + (2 * h))}")
+    else :
+        print("Scelta non valida, uscita programma imposta")
+        break
