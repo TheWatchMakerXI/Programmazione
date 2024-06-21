@@ -16,6 +16,7 @@ closePort = []
 #for inverso 
 whit range(lowport, hiport+1) as port : #uguale a quello di sotto
     s = so.socket(so.AF_INET, so.SOCK_STREAM)
+    #s.sendto() in udp
     status = s.connect_ex((target, port))
     if(status == 0): print("*** Porta {port} Aperta ***")
     else: closePort.append(port)
